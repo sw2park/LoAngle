@@ -4,11 +4,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class siblingsDTO {
+public class SiblingsDTO {
 	private String serverName;
 	private String characterName;
 	private Integer characterLevel;
 	private String characterClassName;
-	private String itenAvgLevel;
+	private String itemAvgLevel;
 	private String itemMaxLevel;
 }
